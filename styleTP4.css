@@ -1,0 +1,47 @@
+body{
+    background-color: #3b3b98;
+    margin-top: 7%;
+    
+}
+
+.globale{
+    background-color: #23235b;
+    width: 50%;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+    margin-left: 25%;
+    box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+   
+}
+
+.globale .resultat #resultat {
+    width: 15%;
+    height: 15%;
+    background-color: white;
+}
+#generation{
+background-color: yellow;
+color: purple;
+width: 30%;
+height: 15%;
+margin-left: 2%;
+margin-top: 4%;
+}
+.saisies .saisie{
+    color: white;
+    margin-top: 2%;
+}
+#long, #maj, #min, #nombre, #symbole{
+    margin-left: 10%;
+}
+#resultat{
+    color: white;
+    margin-left: 5%;
+    width: 30%;
+    height: 50%;
+    margin-top: 5%;
+    margin-right: 5%;
+    background-color: #3b3b98;
+}

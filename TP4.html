@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styleTP4.css">
+	<title>TP4js</title>
+</head>
+<body>
+    <section class="globale">
+        <div id="resultat">
+            
+        </div>
+        <div class="saisies">
+            <div class="saisie">
+                <label for="length">Longueur du password</label>
+                <input type="number" id="long" min="15" max="20" value="15">
+            </div>
+        
+        
+            <div class="saisie">
+                <label for="majuscule">Contient des lettres majuscule</label>
+                <input type="checkbox" id="maj" checked >
+            </div>
+        
+        
+            <div class="saisie">
+                <label for="minuscules">Contient des lettres minuscules</label>
+                <input type="checkbox" id="min" checked >
+            </div>
+        
+        
+            <div class="saisie">
+                <label for="nombre">Contient des nombres </label>
+                <input type="checkbox"  id="nombre" checked >
+            </div>
+       
+        
+            <div class="saisie">
+                <label for="symbole">Contient des Symboles</label>
+                <input type="checkbox" id="symbole" checked  >
+            </div>
+        
+
+        
+            <button id="generation"> Generer Mot De passe  </button>
+        </div>
+        
+    </section>
+	 <script src="TP4js.js"></script>
+</body>
+</html>
