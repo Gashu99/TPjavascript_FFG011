@@ -1,0 +1,58 @@
+body{
+    background-color: grey;
+}
+
+.mesbouton{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 500px;
+    border: solid;
+    border-color: white;
+}
+
+#ns{
+    background-color: green;
+
+}
+#nd{
+    background-color: red;
+    margin-left: 3%;
+}
+#nw{
+    background-color: yellow;
+    margin-left: 3%;
+}
+#ni{
+    background-color: aqua;
+    margin-left: 3%;
+}
+.affichage{
+    width: 30%;
+    height: 70%;
+    margin-top: 25%;
+    margin-right: 50%;
+    margin-left: 50%;
+    
+}
+.affichage .vert{
+    width: 25%;
+    height: 20%;
+    background-color: green;
+}
+.affichage .rouge{
+    width: 25%;
+    height: 20%;
+    background-color:red;
+}
+
+.affichage .jaune{
+    width: 25%;
+    height: 20%;
+    background-color: yellow;
+}
+
+.affichage .bleu{
+    width: 25%;
+    height: 20%;
+    background-color: aqua;
+}

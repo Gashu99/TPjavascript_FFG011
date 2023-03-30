@@ -1,0 +1,49 @@
+body{
+    width: 70%;
+    margin-top: 5%;
+    display: flex;
+    background-color: grey;
+}
+.bloc1{
+    background-color: white;
+    margin-left: 5%;
+    width: 25%;
+    border: solid;
+    border-color: white;
+
+}
+.bloc1 #first:hover{
+   background-color: blue;
+    
+}
+.bloc1 #second:hover{
+    background-color: blue;
+     
+ }
+.bloc1 #third:hover{
+    background-color: blue;
+     
+ }
+.bloc1 #four:hover{
+    background-color: blue;
+     
+ }
+ .bloc3 #first:hover{
+    background-color: blue;
+     
+ }
+.bloc2{
+
+    margin-left: 9%;
+    margin-top: 10%;
+    width: 25%;
+    
+}
+.bloc3{
+    background-color: white;
+    margin-left: 5%;
+    width: 25%;
+    border: solid;
+    border-color: white;
+
+}

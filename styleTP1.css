@@ -1,0 +1,66 @@
+#addnote{
+    width: 90%;
+    height:600px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    
+}
+    
+#addnote #bouton{
+    float:right;
+    width: 75px;
+    margin-left: 950px;
+
+    background-color: greenyellow;
+}
+
+#addnote #contenant  section #entete{
+    width: 250px;
+    height: 50%;
+    background-color: greenyellow;
+    margin-right: 50px;
+    
+
+}
+#addnote section #entete  #edit {
+    float: right;
+    
+
+}
+#addnote section #entete  #supp {
+    float: right;
+    
+
+}
+#contenant #macarte{
+    margin-top: 5%;
+    margin-left: 1%;
+    width: 260px;
+    height: 30%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+#addnote #contenant{
+    margin-top: 05%;
+   
+    height: 100%;
+    z-index: 2;
+    flex-wrap: wrap;
+    display:flex;
+    flex-direction: row;
+}
+#addnote #contenant section #mytext{
+    width: 250px;
+    height: 80%;
+    background-color: white;
+}
+
+/*#addnote #contenant section{
+    display: flex;
+    flex-direction: column;
+}*/
