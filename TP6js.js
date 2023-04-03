@@ -1,3 +1,4 @@
+function calculdate(){  
 const dateactuelle=new Date()
 
 const datefin=new Date ("Dec 31,2023 23:59:59")
@@ -19,5 +20,8 @@ const minuterestant=Math.floor((ecart%(1000*60*60))/ (1000 * 60 ))
 const seconderestant=Math.floor((ecart%(1000*60))/ (1000 ))
 
 document.getElementById('mydate').innerHTML=jourrestant+"   "+" 0"+heurerestant+"  "+" 0"+minuterestant+"  "+" 0"+seconderestant
+setTimeout(calculdate, 1000)
+}
+calculdate()
 
 console.log(seconderestant)

@@ -1,0 +1,20 @@
+html{
+    background-color: white;
+}
+
+#serie1, #serie2, #serie3, #serie4, #grandscore{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+    
+    border: 5px solid aqua;
+}
+#grandscore{
+    font-size: 50px;
+}
+#rejouer{
+    background-color: aqua;
+    margin-left: 25%;
+    margin-top: 5%;
+}

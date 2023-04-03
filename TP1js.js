@@ -30,6 +30,7 @@ const supp = document.getElementById('supp')
 const sect= document.getElementById('macarte')
 const btn=document.getElementById('bouton')
 const a1= btn.addEventListener("click",fonct)
+const text=document.querySelector("#mytext")
 
 /*list = document.querySelectorAll("section")
 list.forEach(function(l){
@@ -38,6 +39,7 @@ list.forEach(function(l){
     })
     })*/
 
+// Gestion de la suppression 
 document.addEventListener('click',function(){
     list = document.querySelectorAll("section")
     list.forEach(function(l){
@@ -47,6 +49,22 @@ document.addEventListener('click',function(){
     })
 
 })
+
+
+// GERER LE BOUTON EDIT
+document.addEventListener('click',function(){
+    list = document.querySelectorAll("section")
+    list.forEach(function(l){
+    l.querySelector('#edit').addEventListener('click',function(){
+        const text=document.getElementById("mytext")
+
+        text.disabled=true
+    
+    })
+    })
+
+})
+
 
 //supp.addEventListener('click',supprimer)
 

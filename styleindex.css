@@ -1,0 +1,51 @@
+
+h1{
+	color: white;
+	font: bold;
+}
+h2{
+	color: white;
+	
+}
+html{
+	background-image: url("datascience1.jpg");
+	background-size: 1300px;
+}
+
+nav{
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 400px;
+	margin-right: 300px;
+	border: solid;
+	background-color: white;
+}
+#TP1{
+	margin-right: 20px;
+}
+
+#TP2{
+	margin-right: 20px;
+}
+#TP3{
+	margin-right: 20px;
+}
+
+#TP4{
+	margin-right: 20px;
+}
+#TP5{
+	margin-right: 20px;
+}
+#TP6{
+	margin-right: 20px;
+}
+#TP7{
+	margin-right: 20px;
+}
+img #me{
+		border-radius:60%;
+		width: 50px;
+		height:80px;
+	
+}
