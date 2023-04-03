@@ -108,7 +108,7 @@ suivant4.addEventListener("click", () => {
     serie4.style.display="none"
     suivant2.style.display="none"
     gd.style.display="block"
-    scor.innerText=`Bravo 🤩🤩 Vous avez trouvé: ${sc} /4`
+    scor.innerText=` Vous avez trouvé: ${sc} /4`
     rejouer.style.display="block"
 
     
