@@ -11,3 +11,17 @@ P{
     margin-left: 15%;
     margin-top: 12% ;
 }
+
+#jhms{
+    display: flex;
+    margin-left: 18%;
+}
+#heures{
+    margin-left:20%;
+}
+#minutes{
+    margin-left:15%;
+}
+#secondes{
+    margin-left:15%;
+}

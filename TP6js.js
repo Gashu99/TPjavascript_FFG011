@@ -1,3 +1,6 @@
+const js=document.getElementById('jhms')
+
+
 function calculdate(){  
 const dateactuelle=new Date()
 
@@ -21,7 +24,9 @@ const seconderestant=Math.floor((ecart%(1000*60))/ (1000 ))
 
 document.getElementById('mydate').innerHTML=jourrestant+"   "+" 0"+heurerestant+"  "+" 0"+minuterestant+"  "+" 0"+seconderestant
 setTimeout(calculdate, 1000)
+
 }
 calculdate()
+
 
 console.log(seconderestant)
