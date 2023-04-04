@@ -3,10 +3,12 @@ function minuscule(){
     return String.fromCharCode(Math.floor(Math.random()*26)+97)
 }
 
+
 //Majuscules
 function majuscule(){
     return String.fromCharCode(Math.floor(Math.random()*26)+65)
 }
+
 
 //Nombres
 function nombre(){
@@ -18,6 +20,7 @@ function symbole(){
     symboles='!@#$*%&(){}[]=<>/,.^'
     return symboles[Math.floor(Math.random()*symboles.length)]
 }
+console.log(symbole())
 
 const Func={
     lower:minuscule,

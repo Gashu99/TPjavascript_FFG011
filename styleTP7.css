@@ -1,0 +1,11 @@
+#lefilm{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#lefilm img{
+    margin: 1%;
+
+}
