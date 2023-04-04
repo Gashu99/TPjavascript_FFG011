@@ -11,8 +11,21 @@ fetch(APIURL)
     // Parcourir les données et afficher les affiches de film
     data.results.forEach(movie => {
       const img = document.createElement('img');
+      const t=document.createElement('h3')
+    
       img.src = IMGPATH + movie.poster_path;
-      document.querySelector('#lefilm').appendChild(img);
+      img.title=movie.title
+      t.textContent=movie.title
+      const conteneur=document.createElement('div')
+      conteneur.appendChild(img)
+      conteneur.appendChild(t)
+      document.querySelector('#lefilm').appendChild(conteneur);
+     
+
     });
-  })
+  }
+  )
   .catch(error => console.error(error));
+
+
+  
