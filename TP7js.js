@@ -7,19 +7,37 @@ const SEARCHAPI =
 // Récupérer les données de l'API
 fetch(APIURL)
   .then(response => response.json())
-  .then(data => {
+  .then(data => {console.log(data.results)
     // Parcourir les données et afficher les affiches de film
     data.results.forEach(movie => {
       const img = document.createElement('img');
       const t=document.createElement('h3')
+      const over=document.createElement('p')
+      t.className='mytitre'
     
       img.src = IMGPATH + movie.poster_path;
       img.title=movie.title
-      t.textContent=movie.title
+      img.vote_average=movie.vote_average
+      over.textContent=movie.overview
+     
+
+      t.textContent=movie.title +"  "+ movie.vote_average
       const conteneur=document.createElement('div')
       conteneur.appendChild(img)
       conteneur.appendChild(t)
+      img.addEventListener('mouseover',()=>{
+        over.style.display='block'
+        conteneur.appendChild(over)
+
+      })
+      img.addEventListener('mouseout',()=>{
+        over.style.display='none'
+
+      })
+      
+      
       document.querySelector('#lefilm').appendChild(conteneur);
+      
      
 
     });
