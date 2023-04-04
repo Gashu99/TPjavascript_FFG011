@@ -27,7 +27,6 @@ fetch(APIURL)
       conteneur.appendChild(t)
       img.addEventListener('mouseover',()=>{
         over.style.display='block'
-        conteneur.appendChild(over)
 
       })
       img.addEventListener('mouseout',()=>{

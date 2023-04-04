@@ -36,7 +36,8 @@ margin-top: 4%;
 #long, #maj, #min, #nombre, #symbole{
     margin-left: 10%;
 }
-#resultat:hover{
+#resultat{
+    border: 5px solid #3b3b98 ;
     color: white;
     margin-left: 10%;
     width: 30%;
