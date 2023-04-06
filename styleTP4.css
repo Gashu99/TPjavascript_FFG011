@@ -41,8 +41,11 @@ margin-top: 4%;
     color: white;
     margin-left: 10%;
     width: 30%;
-    height: 50%;
+    height: 60%;
     margin-top: 5%;
     margin-right: 5%;
     background-color: #3b3b98;
+}
+.copier{
+    margin-right: 0 ;
 }

@@ -69,5 +69,12 @@ generation.addEventListener('click',()=>{
     const hassymbol=symb.checked
     
    resultat.innerText=generermotdepasse(hasupper,haslower,hasnum,hassymbol,longueur)
+   const b = document.createElement('button')
+   b.textContent='copier'
+   b.className='copier'
+   afficher.appendChild(b)
+   
 })
+
+const bouton=document.getElementsByClassName('copier')
 
