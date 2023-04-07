@@ -49,7 +49,7 @@ fetch(APIURL)
 
       
       // RECHERCHER UN FILM PAR SON NOM COMPLET
-      document.querySelector('#lefilm').appendChild(conteneur);
+     document.querySelector('#lefilm').appendChild(conteneur);
     const bouton=document.getElementById('rechercher')
     bouton.addEventListener('click',()=>{
     const valeur=document.getElementById('marecherche')
@@ -68,7 +68,7 @@ fetch(APIURL)
       const arechercher=valeur.value
       
      const filmaafficher = data.results.filter(function(film){
-      return film.title.toLowerCase().includes(arechercher)
+      return film.title.toLowerCase().includes(arechercher.toLowerCase())
      })
 
      document.querySelector('#lefilm').innerHTML=""

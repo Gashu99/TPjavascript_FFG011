@@ -28,8 +28,14 @@ document.getElementById('contenant').insertAdjacentHTML('afterbegin',`<section i
 const edit = document.getElementById('edit')
 const supp = document.getElementById('supp')
 const sect= document.getElementById('macarte')
+
+//recuperation de l'element par son id
 const btn=document.getElementById('bouton')
+
 const a1= btn.addEventListener("click",fonct)
+
+
+
 const text=document.querySelector("#mytext")
 
 /*list = document.querySelectorAll("section")
