@@ -1,6 +1,6 @@
 html{
-    background-image: url("bg.JPG");
-    background-size: 1300px;
+    background-image: url("bg.jpg");
+    background-size: 1850px;
 }
 P{
     font-size: 50px;
@@ -17,11 +17,11 @@ P{
     margin-left: 18%;
 }
 #heures{
-    margin-left:20%;
+    margin-left:17%;
 }
 #minutes{
-    margin-left:15%;
+    margin-left:10%;
 }
 #secondes{
-    margin-left:15%;
+    margin-left:12%;
 }
